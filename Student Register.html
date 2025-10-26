@@ -1,0 +1,80 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Register</title>
+</head>
+<body>
+<h1 style="text-align:center;">Student Register Form</h1>
+<table>
+    <form>
+        <tr>
+            <th>Rollno:</th>
+            <td><input type="Text"placeholder="Enter the Rollno" id="rno" name="rno" size="55s"></td>
+        </tr>
+        <tr>
+            <th>Name:</th>
+            <td><input type="Text" placeholder="Enter the First Name" id="fname" name="fname" size="24"> - 
+                 <input type="Text" placeholder="Enter the Last Name" id="lname" name="lname" size="24"></td>
+        </tr>
+        <tr>
+            <th>Father Name:</th>
+            <td><input type="Text" placeholder="Enter Father Name" id="FaName" name="FaName" size="55"> </td>
+        </tr>
+        <tr>
+           <th>Email id:</th>
+           <td><input type="Email" placeholder="Enter Email id" id="email" name="email" size="55">
+        </td>
+        </tr>
+        <tr>
+            <th>Password:</th>
+           <td><input type="Password" placeholder="Enter Password" id="pawrd" name="pawrd" size="55"> </td>
+        </tr>
+        <tr>
+            <th>Gender:</th>
+            <td><input type="radio" id="Male" value="Male" name="Gender" >male
+            <input type="radio" id="Female" value="Female" name="Gender">Female
+            <input type="radio" id="Other" value="Other" name="Gender"> Other</td>
+        </tr>
+        <tr>
+            <th>Department:</th>
+            <td><input type="checkbox" id="CSE" name="dept" value="CSE">CSE
+            <input type="checkbox" id="ECE" name="dept" value="ECE">ECE
+            <input type="checkbox" id="MECH" name="dept" value="MECH">MECH
+            <input type="checkbox" id="CIVIL" name="dept" value="CIVIL">CIVIL
+            <input type="checkbox" id="IT" name="dept" value="IT">IT</td>
+        </tr>
+        <tr>
+            <th>Date of Birth:</th>
+            <td> <input type="Number" id="dd" name="dd" placeholder="Day" min="1" max="31" size="2">
+             <input type="Number" id="Mon" name="Mon" placeholder="Month" min="1" max="12" size="2">
+            <input type="Number" id="Yr" name="Yr" placeholder="Year" min="1990" max="2024" size="4">
+        (DD-MM-YYYY)</td>
+        </tr>
+        <tr>
+            <!--td><input type="date" id="dob" name="dob" min="1990-01-01" max="2025-10-10" size="4">
+        </td>-->
+        </tr>
+         <tr>
+            <th>Mobile Number:</th>
+            <td><input type="type" id="num" name="num" value="+91" readonly size="4" >
+                 <input type="number" id="Mobile" name="Mobile" placeholder="Enter the Mobile number" size="50" maxlength="10"></td>
+         </tr>
+         <tr>
+            <th>Address:</th>
+            <td><textarea rows="4" cols="50"></textarea> </td>
+         </tr>
+        <tr>
+        <td><input type="Submit" Value="Register">
+            <input type="reset" value="Clear"></td>
+            </tr>
+    <!--</tr>
+         <input type="number id="age" name="age" placeholder="Age" min="1" max="100" size="4" value="20" disabled>
+         <input type="number" id="age" name="age" placeholder="Age" min="1" max="100" size="4" value="20" hidden></tr>-->
+         <input type="file" id="file" name="file">
+    </form>
+</table>
+
+</body>
+</html>
